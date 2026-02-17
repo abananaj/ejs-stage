@@ -1,6 +1,10 @@
-const ejs = require('ejs');
-const fs = require('fs');
-const path = require('path');
+import ejs from 'ejs';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// __dirname doesn't exist in ES modules, so we derive it
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Define your data
 const data = {
