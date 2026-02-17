@@ -1,0 +1,10 @@
+<section class="card-grid">
+    <h2>
+        <%= sectionTitle %>
+    </h2>
+    <div class="grid">
+        <% items.forEach(function(item) { %>
+            <%- include('../partials/card', item) %>
+                <% }); %>
+    </div>
+</section>

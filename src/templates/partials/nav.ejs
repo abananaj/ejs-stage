@@ -1,0 +1,9 @@
+<nav class="main-nav">
+    <ul>
+        <% links.forEach(function(link) { %>
+            <li><a href="<%= link.href %>">
+                    <%= link.label %>
+                </a></li>
+            <% }); %>
+    </ul>
+</nav>
