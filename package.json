@@ -2,9 +2,10 @@
 	"name": "ejs",
 	"version": "1.0.0",
 	"description": "",
-	"main": "ejs.ts",
+	"main": "index.ts",
 	"scripts": {
-		"ejs": "npx tsx ejs.ts"
+		"ejs": "npx tsx views.ejs.ts",
+		"views": "npx tsx views.ejs.ts"
 	},
 	"keywords": [],
 	"author": "",
